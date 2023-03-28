@@ -8,3 +8,8 @@ const person = {
 console.log(person)
 console.log(person.cpf.substring(0,3))
 console.log(person['email'])
+
+
+const result = require('./custumer.json')
+
+console.log(result)
